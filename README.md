@@ -4,7 +4,7 @@
 Python script that reads data from an Excel file containing COVID-19 state-level data. It performs data processing and analysis to identify the top 3 states with the highest number of COVID deaths for each month ('March', 'April', 'May', 'June'). The script then sends this information as messages to a Slack channel at regular intervals.
 
 1.Importing necessary libraries:
-* pandas is imported to work with data in a tabular format.
+* Pandas Library is imported to work with data in a tabular format.
         WebClient from the slack library is imported to send messages to a Slack channel.
         time is imported to introduce delays between sending messages.
         os is imported to access environment variables.
